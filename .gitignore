@@ -1,0 +1,29 @@
+# .gitignore
+
+# Node specific
+node_modules/
+client/node_modules/
+server/node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+client/.env
+server/.env
+
+# React specific
+client/build/
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Database
+*.sqlite
